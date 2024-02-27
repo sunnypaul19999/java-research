@@ -6,7 +6,7 @@ import java.util.concurrent.ExecutorService;
 import java.util.concurrent.Executors;
 import java.util.concurrent.Future;
 
-class A implements Callable {
+class A implements Callable<Object> {
 
   @Override
   public Object call() throws Exception {
